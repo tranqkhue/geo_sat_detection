@@ -52,7 +52,7 @@ There are two steps: find the satellites in one dividiual frame, and matching mu
 2. Why use *bounding boxes around the stars* as positive data?
   > Because, without taking account in Earth's rotation, the satellites and stars are relative (small) pin-point objects in the sky. So (hopefully), when we resize the stars' bounding boxes into a square, the stars would be points, while reserving their gradient properties
   
-3. Why use HOG? Isn't it outdated>
+3. Why use HOG? Isn't it outdated?
   > Because we use *gradient* feature. Also we need rotation variance as the **gradients' traits** (not to be confused with *stars' traits*) are the same   
   *A remind of gradient's traits as the pixels' values ascending from left to right (you may need to zoom in)*
 ![alt text](https://github.com/tranqkhue/geo_sat_detection/blob/master/doc/star.png)
